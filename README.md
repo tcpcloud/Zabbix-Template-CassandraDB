@@ -9,6 +9,14 @@ CentOs 6.x x86_64
 Zabbix 2.0.x
 CassandraDB 1.2.x
 
+next values can be added over JMX util?
+bash-4.1# java -jar ./cmdline-jmxclient-0.10.3.jar - 127.0.0.1:7199 java.lang:type=Runtime Uptime
+
+and JMX items is:
+org.apache.cassandra.request:type=*
+org.apache.cassandra.internal:type=*
+org.apache.cassandra.db:type=*
+
 ### Authors
 * Patrik Majer p.majer@tcpisek.cz (<patrik.majer.pisek@gmail.com>)
 

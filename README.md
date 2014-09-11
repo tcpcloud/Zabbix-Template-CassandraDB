@@ -37,11 +37,70 @@ source: https://github.com/harisekhon/lib/tree/master/HariSekhon
 
 ### Monitored items
 
-* 
+* Info - Host ID
+
+* Info - Uptime
+
+* Info - Native Transport Active
+
+* Info - Exceptions
+
+* Info - Thrift Active
+
+* Info - Gossip Active
+
+* Info - Heap Memory (Used)
+
+* Info - Main Status Text
+
+* Info - Main Status
+
+* Status - Nodes global status
+
+* Status - Nodes ALL (text)
+
+* Status - Nodes Down (count)
+
+* Status - Nodes Up (count)
+
+
+* TPstats - global status
+
+* TPstats - ReadStage Active
+
+* TPstats - ReadStage Pending
+
+* TPstats - ReadStage All time blocked
+
+* TPstats - ReadStage Blocked
+
+* TPstats - ReadStage Completed
+
 
 ### Trigers
 
-* 
+* High			CassandraDB - found down nodes on {HOST.NAME}
 
-## Links
+* Not classified	CassandraDB - Gossip state active is not "true"
+
+* Warning	        CassandraDB - Heap Memory usage is >85%	
+
+* Average	        CassandraDB - Heap Memory usage is >95%	
+
+* Average	        CassandraDB - low nodes on {HOST.NAME}
+
+* High		        CassandraDB - Main Status is "PROBLEM" on {HOST.NAME}
+
+* Average	        CassandraDB - Nodes global status is not "OK" on {HOST.NAME}
+
+* Not classified	CassandraDB - Thrift state active is not "true"
+
+* Average	        CassandraDB - TPstats is not "OK" on {HOST.NAME}	
+
+* Information		CassandraDB - Host ID was changed on {HOST.NAME}
+
+* Information		CassandraDB - server was rebooted on {HOST.NAME}
+
+
+### Links
 

@@ -79,28 +79,44 @@ source: https://github.com/harisekhon/lib/tree/master/HariSekhon
 
 ### Trigers
 
-* High			CassandraDB - found down nodes on {HOST.NAME}
+* CassandraDB - found down nodes on {HOST.NAME} (High)
 
-* Not classified	CassandraDB - Gossip state active is not "true"
+* CassandraDB - Gossip state active is not "true" (Not classified)
 
-* Warning	        CassandraDB - Heap Memory usage is >85%	
+* CassandraDB - Heap Memory usage is >85% (Warning)
 
-* Average	        CassandraDB - Heap Memory usage is >95%	
+* CassandraDB - Heap Memory usage is >95% (Average)
 
-* Average	        CassandraDB - low nodes on {HOST.NAME}
+* CassandraDB - low nodes on {HOST.NAME} (Average)
 
-* High		        CassandraDB - Main Status is "PROBLEM" on {HOST.NAME}
+* CassandraDB - Main Status is "PROBLEM" on {HOST.NAME} (High)
 
-* Average	        CassandraDB - Nodes global status is not "OK" on {HOST.NAME}
+* CassandraDB - Nodes global status is not "OK" on {HOST.NAME} (Average)
 
-* Not classified	CassandraDB - Thrift state active is not "true"
+* CassandraDB - Thrift state active is not "true" (Not classified)
 
-* Average	        CassandraDB - TPstats is not "OK" on {HOST.NAME}	
+* CassandraDB - TPstats is not "OK" on {HOST.NAME} (Average)
 
-* Information		CassandraDB - Host ID was changed on {HOST.NAME}
+* CassandraDB - Host ID was changed on {HOST.NAME} (Information)
 
-* Information		CassandraDB - server was rebooted on {HOST.NAME}
+* CassandraDB - server was rebooted on {HOST.NAME} (Information)
 
 
 ### Links
+
+* https://github.com/mrmichalis/CassyCmd
+
+* http://www.mail-archive.com/user@cassandra.apache.org/msg08100.html
+
+* https://code.google.com/p/simple-cassandra-monitoring/
+
+* http://mail-archives.apache.org/mod_mbox/cassandra-user/201205.mbox/%3C2C85E14562B39345BCCAD90B8E7955C90D9354@DKEXC001.adform.com%3E
+
+* https://github.com/jamesgolick/cassandra-munin-plugins
+
+* http://www.jointhegrid.com/cassandra/cassandra-cacti-m6.jsp
+
+* http://wiki.apache.org/cassandra/Operations
+
+* http://crawler.archive.org/cmdline-jmxclient/cmdline-jmxclient-0.10.3.jar
 
